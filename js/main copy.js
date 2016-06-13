@@ -3,33 +3,6 @@
  //\\//\\\//\\//\   -- VARIABLE DECLARATIONS --   //\\\//\\\////\\/\\
 //\\//\\\//\\//\\//\\//\\\//\\//\\//\\//\\\//\\//\\//\\//\\\//\\//\\
 
-var moons = [ 
-	{ 	title   : "Io",
-		text    : "Io is the innermost of the four Galilean moons of the planet Jupiter. It is the fourth-largest moon, has the highest density of all the moons, and is the driest known object in the Solar System. It was discovered in 1610 and was named after the mythological character Io, a priestess of Hera who became one of Zeus's lovers.",
-		color   : "#d7f43d",
-		gradient: ""
-	},
-
-	{ 	title   : "Europa",
-		text    : "Slightly smaller than the Moon, Europa is primarily made of silicate rock and has a water-ice crust and probably an iron-nickel core. It has the smoothest surface of any known solid object in the Solar System. The apparent youth and smoothness of the surface have led to the hypothesis that a water ocean exists beneath it, which could conceivably serve as an abode for extraterrestrial life.",
-		color   : "#ea9123",
-		gradient: "radial-gradient(#ecdeb2, #ea9123)"
-	},
-
-	{ 	title   : "Ganymede",
-		text    : "Ganymede has a diameter of 5,268 km (3,273 mi), 8% larger than the planet Mercury, but its mass is only 45% that of Mercury. Ganymede is 2% larger than Saturn's Titan, the Solar System's second-largest moon. At 2.02 times the mass of the Moon, it is the most massive planetary satellite. It is the ninth-largest object in the Solar System, and the largest without a substantial atmosphere.",
-		color   : "#a898ec",
-		gradient: ""
-	},
-
-	{ 	title   : "Callisto",
-		text    : "The surface of Callisto is the oldest and most heavily cratered in the Solar System. Because of its low radiation levels, Callisto has long been considered the most suitable place for a human base for future exploration of the Jovian system.",
-		color   : "#2a80a1",
-		gradient: "linear-gradient(to bottom right, #bfb892, #2a80a1)"
-	},
-];
-
-
 var menu = document.getElementsByTagName('li');
 
 var title = document.getElementsByTagName('h2');
