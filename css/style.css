@@ -48,6 +48,10 @@ li:hover {
   cursor: pointer;
 }
 
+li:first-child {
+  text-decoration: underline;
+}
+
 article {
   height: 500px;
   margin-right: 75px;
